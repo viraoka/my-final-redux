@@ -11,3 +11,93 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  display: flex;
+  justify-content: space-around;
+}
+
+body {
+  background-color: #313131;
+}
+
+.block {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 30px;
+}
+
+img {
+  width: 400px;
+}
+
+.cartIcon {
+  width: 70px;
+  margin-top: 30px;
+}
+
+.categoryButtonSelected {
+  background-color: #4F6F52;
+}
+
+.categoryButton:hover {
+  background-color: #F8FAE5;
+}
+
+.categoryButton {
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+}
+
+p, h2, button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+p {
+  color: #3C2A21;
+}
+
+button {
+  background-color: #CA3E47;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+.icon {
+  width: 20px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.add {
+  margin-bottom: 45px;
+}
+
+
+@media all and (max-width: 500px) {
+  .block {
+    width: 160px;
+  }
+  img {
+    width: 150px;
+  }
+  button {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+  p {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+}
+
