@@ -84,20 +84,24 @@ h2 {
   .block {
     width: 160px;
   }
+
   img {
     width: 150px;
   }
+
   button {
     margin-top: 10px;
     margin-bottom: 15px;
     font-size: 15px;
   }
+  
   p {
     font-size: 15px;
   }
 
   h1 {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
+
 

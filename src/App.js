@@ -1,7 +1,7 @@
 import './App.css';
 import Cart from './Components/Cart/Cart';
 import Clothes from './Components/ClothesComponents/Clothes';
-import AllCategories from './Components/Filter/AllCtegories';
+import AllCategories from './Components/Filter/AllCategories';
 
 
 function App() {
@@ -20,5 +20,6 @@ function App() {
 
 
 export default App;
+
 
 
