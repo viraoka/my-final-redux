@@ -14,7 +14,7 @@ const Clothes = () => {
                 if (selectedCategory === 'ALL') return true;
                 return selectedCategory === cloth.category
             })
-            .map((cloth, id) => <Cloth key={id} cloth={cloth}/>)}
+            .map((cloth, index) => <Cloth key={index} cloth={cloth}/>)}
         </div>
     )
 }
